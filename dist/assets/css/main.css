@@ -1,0 +1,60 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0; }
+
+th {
+  background: #d4d4d4;
+  border: 1px solid #000;
+  padding: 10px; }
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 60px;
+  text-align: center; }
+
+td {
+  background: #b0c1d4;
+  border: 1px solid #000;
+  }
+ .catalog li{
+  cursor: pointer;
+  display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+margin: 5px 0;
+ } 
+
+/*  .catalog__item:not([data-parent_id='0']){
+display: none;
+}  */
+ .active > .catalog__name, .catalog__name:hover, .catalog__name:focus{
+  background: #509b69;
+}
+
+.catalog__name {
+    width: calc(100% - 70px);
+}
+.btnDelete {
+    width: 70px;
+}
+  .catalog ul{
+    width: 100%;
+       background: #b2c6ac;
+flex: none;
+box-sizing: border-box;
+  }
+ .catalog > ul{
+   padding: 0;
+ }
+.wrapper {
+  max-width: 1000px;
+  widows: 100%;
+  margin: 0 auto; }
+
+.required::placeholder {
+color: red;
+}
+.blockAdd__select {
+    min-width: 100px;
+}
